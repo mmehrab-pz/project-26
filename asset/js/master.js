@@ -253,7 +253,7 @@ document.getElementById('login-btn').addEventListener('click', () => {
                         document.getElementById('modal-5').classList.add('active-modal')
                         setTimeout(() => {
                             document.getElementById('modal-5').classList.remove('active-modal')
-                            window.location = '../admin.html'
+                            window.location = 'https://mmehrab-pz.github.io/admin.html'
                         }, 2000);
                     } else {
                         document.getElementById('modal-4').classList.add('active-modal')
